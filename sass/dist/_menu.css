@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+.menu {
+  background: #B1D0E0;
+  margin: 2rem 2rem 0 2rem;
+  border: solid transparent;
+  border-radius: 0.5rem 0.5rem 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-button {
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  border: none;
+}
+.menu-button-img {
+  width: 3.5rem;
+  height: 3.5rem;
+  background: #B1D0E0;
+  padding: 0.5rem;
+}
+.menu-station {
+  color: #F7F7F7;
+  font-size: 0.8rem;
+}
+.menu-clock {
+  text-align: center;
+  font-family: "Open sans", sans-serif;
+  color: #393E46;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: transparent;
+}
+.menu-clock-box {
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #F7F7F7;
+  border-radius: 1rem;
+  padding: 0 2rem;
+  background: #F7F7F7;
+}
+.menu-clock-box-time {
+  background: #F7F7F7;
+}
+
+.nav {
+  display: none;
+  position: absolute;
+}
+.nav-open {
+  display: block;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: columns;
+  text-align: center;
+  list-style-type: none;
+  background: #B1D0E0;
+  margin-left: 2rem;
+  flex-direction: column;
+  padding: 0 1rem 1rem 1rem;
+  border-radius: 0 0 1rem 1rem;
+}
+.nav-bar-item {
+  text-align: center;
+  margin: 10px 20px 0 0;
+  display: flex;
+  background: #F7F7F7;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+.nav-bar-item:hover {
+  background: #6998AB;
+}
+.nav-bar-item-link {
+  text-decoration: none;
+  color: #393E46;
+  background: transparent;
+  font-size: 12px;
+}
+.nav-bar-item-link:hover {
+  color: #F7F7F7;
+}

@@ -1,0 +1,33 @@
+[{
+    "deviceName": "Estação Cruzeiro",
+    "temperature_internal": "25.05",
+    "humidity_internal": "83.70",
+    "rain_level": "635.7",
+    "avg_wind_speed": "6",
+    "gust_wind_speed": "17",
+    "wind_direction": "142",
+    "temperature": "24.6",
+    "humidity": "93",
+    "luminosity": 1,
+    "uv": "0.0",
+    "solar_radiation": "0.0",
+    "atm_pres": "971.1"
+},
+
+{
+    "deviceName": "Estação Aeroporto",
+    "temperature_internal": "24.69",
+    "humidity_internal": "81.90",
+    "rain_level": "15.3",
+    "avg_wind_speed": "19",
+    "gust_wind_speed": "20",
+    "wind_direction": "70",
+    "temperature": "24.5",
+    "humidity": "89",
+    "luminosity": 65531,
+    "uv": "20.0",
+    "solar_radiation": "768.7",
+    "atm_pres": "841.9"
+}
+
+]

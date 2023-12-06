@@ -1,0 +1,78 @@
+@import 'variables'
+
+.menu
+    background: $quaternary-color
+    margin: 2rem 2rem 0 2rem
+    border: solid transparent
+    border-radius: 0.5rem 0.5rem 0 0
+    display: flex
+    justify-content: space-between
+    align-items: center
+    &-button
+        cursor: pointer
+        padding: 0
+        display: flex
+        align-items: center
+        border: none
+        &-img
+            width: 3.5rem
+            height: 3.5rem
+            background: $quaternary-color
+            padding: 0.5rem
+
+    &-station
+        color: $white-color
+        font-size: 0.8rem
+
+    &-clock
+        text-align: center
+        font-family: $font-hours
+        color: $black-color
+        display: flex
+        align-items: center
+        justify-content: space-around
+        background: transparent
+        &-box
+            margin: 0 1rem
+            display: flex
+            flex-direction: column
+            border: 1px solid $white-color
+            border-radius: 1rem
+            padding: 0 2rem
+            background: $white-color
+            &-time
+                background: $white-color
+
+.nav
+    display: none
+    position: absolute
+    &-open
+        display: block
+
+    &-bar
+        display: flex
+        flex-direction: columns
+        text-align: center
+        list-style-type: none
+        background: $quaternary-color
+        margin-left: 2rem
+        flex-direction: column
+        padding: 0 1rem 1rem 1rem
+        border-radius: 0 0 1rem 1rem
+        &-item
+            text-align: center
+            margin: 10px 20px 0 0
+            display: flex
+            background: $white-color
+            border: 1px solid transparent
+            border-radius: 0.5rem
+            padding: 00.5rem
+            &:hover
+                background: $tertiary-color
+            &-link
+                text-decoration: none
+                color: $black-color
+                background: transparent
+                font-size: 12px
+                &:hover
+                    color: $white-color

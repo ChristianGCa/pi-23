@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+main .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  gap: 2rem 0;
+  margin: 0 auto;
+  height: auto;
+  width: auto;
+  place-items: center;
+}
+main .cards-card {
+  background: linear-gradient(262deg, #1a374d 0%, #406882 16%, #6998ab 43%, #406882 79%, #1a374d 100%);
+  border: 1px solid #B1D0E0;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 250px;
+}
+main .cards-card:hover {
+  background: #6998AB;
+}
+main .cards-card-image {
+  align-items: center;
+  display: flex;
+  margin-top: 3.5rem;
+  justify-content: center;
+  overflow: hidden;
+}
+main .cards-card-image-img {
+  width: 80px;
+}
+main .cards-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 15px;
+  margin-top: 2.5em;
+}
+main .cards-card-content-text {
+  color: #F7F7F7;
+}

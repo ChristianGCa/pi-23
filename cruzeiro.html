@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estação Cruzeiro</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="menu">
+          <button
+            class="menu-button"
+            id="menu-buttonId"
+            alt="botão de menu de navegação"
+          >
+            <img
+              class="menu-button-img"
+              src="./img/menu-bar.jpg"
+              alt="menu hamburguer"
+            />
+          </button>
+          <div class="menu-station">
+            <h1>Estação Cruzeiro</h1>
+          </div>
+          <div class="menu-clock">
+            <div class="menu-clock-box">
+              <span class="menu-clock-box-time" id="hours">00</span>
+              <span class="menu-clock-box-time">Horas</span>
+            </div>
+            <div class="menu-clock-box">
+              <span class="menu-clock-box-time" id="minutes">00</span>
+              <span class="menu-clock-box-time">Minutos</span>
+            </div>
+            <div class="menu-clock-box">
+              <span class="menu-clock-box-time" id="seconds">00</span>
+              <span class="menu-clock-box-time">Segundos</span>
+            </div>
+          </div>
+        </div>
+        <nav class="nav">
+          <ul class="nav-bar">
+            <li class="nav-bar-item">
+              <a class="nav-bar-item-link" href="./index.html">Início</a>
+            </li>
+            <li class="nav-bar-item">
+              <a class="nav-bar-item-link" href="./cruzeiro.html"
+                >Estação Cruzeiro</a
+              >
+            </li>
+            <li class="nav-bar-item">
+              <a class="nav-bar-item-link" href="./aeroporto.html"
+                >Estação Aeroporto</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <section class="cards">
+          <article class="cards-card">
+            <div class="cards-card-image">
+              <img
+                class="cards-card-image-img"
+                src="./img/temperatura.png"
+                alt="image placeholder"
+              />
+            </div>
+            <div id="temperatura" class="cards-card-content">
+              <span class="cards-card-content-text" style="text-align: center">Temperatura</span>
+              <span id="valorTemperatura" class="cards-card-content-text" style="text-align: center"></span>
+             </div>
+             
+          </article>
+          <article class="cards-card">
+            <div class="cards-card-image">
+              <img
+                class="cards-card-image-img"
+                src="./img/umidade.png"
+                alt="image placeholder"
+              />
+            </div>
+            <div id="umidade" class="cards-card-content">
+              <span class="cards-card-content-text" style="text-align: center">Umidade</span>
+              <span id="valorUmidade" class="cards-card-content-text" style="text-align: center"></span>
+            </div>
+            
+          </article>
+          <article class="cards-card">
+            <div class="cards-card-image">
+              <img
+                class="cards-card-image-img"
+                src="./img/medidor-de-pressao.png"
+                alt="image placeholder"
+              />
+            </div>
+            <div id ="pressao" class="cards-card-content">
+              <span class="cards-card-content-text" style="text-align: center">Pressão Atmosférica</span>
+              <span id="valorPressao" class="cards-card-content-text" style="text-align: center"></span>
+            </div>
+            
+          </article>
+          <article class="cards-card">
+            <div class="cards-card-image">
+              <img
+                class="cards-card-image-img"
+                src="./img/vento.png"
+                alt="image placeholder"
+              />
+            </div>
+            <div id = "velvento" class="cards-card-content">
+              <span class="cards-card-content-text" style="text-align: center">Velocidade do vento</span>
+              <span id = "valorVelvento" class="cards-card-content-text" style="text-align: center"></span>
+            </div>
+            
+          </article>
+          <article class="cards-card">
+            <div class="cards-card-image">
+              <img
+                class="cards-card-image-img"
+                src="./img/direcao-do-vento.png"
+                alt="image placeholder"
+              />
+            </div>
+            <div class="cards-card-content">
+              <span id="dirvento" class="cards-card-content-text" style="text-align: center">Direção do vento</span>
+              <span id="valorDirvento" class="cards-card-content-text" style="text-align: center"></span>
+            </div>
+            
+          </article>
+          <article class="cards-card">
+            <div class="cards-card-image">
+              <img
+                class="cards-card-image-img"
+                src="./img/luminosidade.png"
+                alt="image placeholder"
+              />
+            </div>
+            <div class="cards-card-content">
+              <span id="luminosidade" class="cards-card-content-text" style="text-align: center">Luminosidade</span>
+              <span id="valorLuminosidade" class="cards-card-content-text" style="text-align: center"></span>
+            </div>
+            
+          </article>
+        </section>
+      </main>
+      <footer>
+        <a href="https://www.flaticon.com/br/" title="metro ícones"
+          >Ícones criados por Freepik - Flaticon</a
+        >
+      </footer>
+    </div>
+    <script src="./js/hours.js"></script>
+    <script src="./js/menu.js"></script>
+
+    <script>
+
+      // Função para buscar dados do servidor e atualizar elementos HTML
+function atualizarDados() {
+    fetch("estacoes_retorno.json").then((response) => {
+        response.json().then((dados) => {
+            // Atualizar temperatura
+            const temperaturaCruzeiro = dados.find((estacao) => estacao.deviceName === "Estação Cruzeiro").temperature;
+            document.getElementById("valorTemperatura").textContent = temperaturaCruzeiro + " ºC";
+
+            // Atualizar humidade
+            const umidadeCruzeiro = dados.find((estacao) => estacao.deviceName === "Estação Cruzeiro").humidity;
+            document.getElementById("valorUmidade").textContent = umidadeCruzeiro + " %";
+
+            // Atualizar pressão atmosférica
+            const pressaoCruzeiro = dados.find((estacao) => estacao.deviceName === "Estação Cruzeiro").atm_pres;
+            document.getElementById("valorPressao").textContent = pressaoCruzeiro + " hPa";
+
+            // Atualizar velocidade do vento
+            const velventoCruzeiro = dados.find((estacao) => estacao.deviceName === "Estação Cruzeiro").avg_wind_speed;
+            document.getElementById("valorVelvento").textContent = velventoCruzeiro + " Km/h";
+
+            // Atualizar direção do vento
+            const dirventoCruzeiro = dados.find((estacao) => estacao.deviceName === "Estação Cruzeiro").wind_direction;
+            const windDirectionText = convertWindDirection(dirventoCruzeiro);
+            document.getElementById("valorDirvento").textContent = windDirectionText;
+
+            // Atualizar luminosidade
+            const luminosidadeCruzeiro = dados.find((estacao) => estacao.deviceName === "Estação Cruzeiro").luminosity;
+            const luminosityText = convertLuminosity(luminosidadeCruzeiro);
+            document.getElementById("valorLuminosidade").textContent = luminosityText;
+        });
+    });
+}
+
+// Função para converter a direção do vento em texto
+function convertWindDirection(degrees) {
+    const directionMap = {
+        0: "Norte",
+        45: "Nordeste",
+        90: "Leste",
+        135: "Sudeste",
+        180: "Sul",
+        225: "Sudoeste",
+        270: "Oeste",
+        315: "Noroeste",
+    };
+
+    const closestDirection = Object.keys(directionMap).reduce((a, b) => {
+        return Math.abs(b - degrees) < Math.abs(a - degrees) ? b : a;
+    });
+
+    return directionMap[closestDirection];
+}
+
+// Função para converter luminosidade em texto
+function convertLuminosity(luminosity) {
+    if (luminosity > 1000) {
+        return "Alta";
+    } else if (luminosity > 40) {
+        return "Média";
+    } else {
+        return "Baixa";
+    }
+}
+
+// Atualizar dados a cada 0,5 segundos
+setInterval(atualizarDados, 500);
+
+      
+    </script>
+  </body>
+</html>
