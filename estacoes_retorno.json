@@ -1,13 +1,13 @@
 [{
     "deviceName": "Estação Cruzeiro",
-    "temperature_internal": "26.92",
+    "temperature_internal": "26.85",
     "humidity_internal": "81.60",
     "rain_level": "704.4",
     "avg_wind_speed": "5",
-    "gust_wind_speed": "7",
-    "wind_direction": "250",
+    "gust_wind_speed": "10",
+    "wind_direction": "275",
     "temperature": "27.3",
-    "humidity": "47",
+    "humidity": "46",
     "luminosity": 0,
     "uv": "0.0",
     "solar_radiation": "0.0",
@@ -16,17 +16,18 @@
 
 {
     "deviceName": "Estação Aeroporto",
-    "temperature_internal": "26.92",
-    "humidity_internal": "81.60",
-    "rain_level": "704.4",
-    "avg_wind_speed": "5",
-    "gust_wind_speed": "7",
-    "wind_direction": "250",
-    "temperature": "27.3",
-    "humidity": "47",
-    "luminosity": 0,
-    "uv": "0.0",
-    "solar_radiation": "0.0",
-    "atm_pres": "972.1"
+    "temperature_internal": "27.62",
+    "humidity_internal": "46.10",
+    "rain_level": "0.0",
+    "avg_wind_speed": "0",
+    "gust_wind_speed": "0",
+    "wind_direction": "159",
+    "temperature": "25.8",
+    "humidity": "51",
+    "luminosity": 65531,
+    "uv": "20.0",
+    "solar_radiation": "2133.4",
+    "atm_pres": "975.1"
 }
+
 ]
