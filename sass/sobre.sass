@@ -1,0 +1,73 @@
+@import 'variables'
+.bodyAbout
+    background: $backgroundAbout
+    background-repeat: no-repeat
+
+.headerAbout
+    &-menuAbout
+        display: flex
+        flex-direction: row
+        align-items: center
+        justify-content: center
+        margin: 20px 0 0 20px
+        position: relative
+        text-align: center
+        &-returnArrow
+            width: 2.5rem
+            filter: invert(90%)
+            position: absolute
+            top: 20px
+            left: 20px
+            &:hover
+                filter: invert(50%)
+        &-title
+            color: $white-color
+            font-family: $font-index
+            font-weight: 100
+            margin-top: 20px
+
+.mainAbout
+    text-align: center
+    &-hr
+        margin: 40px auto
+    &-logo
+        width: 300px
+    &-aboutUs
+        display: flex
+        flex-direction: column
+        &-title
+            color: $white-color
+            margin: 40px 0
+            font-weight: 100
+            font-family: $font-aboutUs
+            font-size: 3rem
+        &-box
+            align-content: center
+            justify-content: center
+            text-align: center
+            padding: 25px 300px
+
+            &-subtitle
+                color: $quaternary-color
+                font-family: $font-aboutUs
+            &-img
+                margin-top: 20px
+            &-paragraph
+                border-right: 1px solid $orange-color
+                border-bottom: 1px solid $orange-color
+                border-left: 1px solid $orange-color
+                border-radius: 0 0 8px 8px
+                margin-top: -8px
+                padding: 0 24px
+                height: 0
+                overflow: hidden
+                opacity: 0
+                transition: .2s
+                color: $white-color
+#aboutUs
+    margin-top: 50px
+
+.mainAbout-aboutUs-box.active .mainAbout-aboutUs-box-paragraph
+    height: fit-content
+    opacity: 1
+    padding: 24px

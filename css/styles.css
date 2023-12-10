@@ -1,13 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
 .bodyIndex {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='900' preserveAspectRatio='none' viewBox='0 0 1440 900'%3e%3cg mask='url(%26quot%3b%23SvgjsMask2297%26quot%3b)' fill='none'%3e%3crect width='1440' height='900' x='0' y='0' fill='url(%26quot%3b%23SvgjsRadialGradient2298%26quot%3b)'%3e%3c/rect%3e%3cpath d='M192.84365101819796-95.53485776329771L-66.69700688514817-21.112771692707938 7.725079185441615 238.4278862106382 267.2657370887877 164.00580014004842z' fill='rgba(177%2c 208%2c 224%2c 0.55)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M24.44759633267688 291.74955358918726L265.0193578635362 169.17211865950958 142.4419229338585-71.39964287134973-98.1298385970008 51.17779205832795z' fill='rgba(177%2c 208%2c 224%2c 0.55)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-76.37 -43.64 a32.73 32.73 0 1 0 65.46 0 a32.73 32.73 0 1 0 -65.46 0z' fill='rgba(177%2c 208%2c 224%2c 0.55)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1095.89 44.1 a208.21 208.21 0 1 0 416.42 0 a208.21 208.21 0 1 0 -416.42 0z' fill='rgba(177%2c 208%2c 224%2c 0.55)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1253.6940717119692 279.01102660051515L1510.4793311116605 195.57643811927932 1427.0447426304247-61.20882128041211 1170.2594832307334 22.225767200823725z' fill='rgba(177%2c 208%2c 224%2c 0.55)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1072.75 67.25 a254.5 254.5 0 1 0 509 0 a254.5 254.5 0 1 0 -509 0z' fill='rgba(177%2c 208%2c 224%2c 0.55)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M259.41617545524537 682.3357548327742L-7.956203104978613 644.7590175735565-45.53294036419629 912.1313961337805 221.83943819602771 949.7081333929982z' fill='rgba(177%2c 208%2c 224%2c 0.55)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-121.49 721.49 a122.98 122.98 0 1 0 245.96 0 a122.98 122.98 0 1 0 -245.96 0z' fill='rgba(177%2c 208%2c 224%2c 0.55)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M-100.66300950847099 902.992563171324L154.6270059033446 990.8959648747563 242.53040760677683 735.6059494629407-12.759607805038783 647.7025477595084z' fill='rgba(177%2c 208%2c 224%2c 0.55)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1305.8952700604405 602.5035595559324L1158.8427306063832 828.9446129011969 1385.2837839516476 975.9971523552542 1532.336323405705 749.5560990099897z' fill='rgba(177%2c 208%2c 224%2c 0.55)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1554.9038105676657 755.0961894323342L1321.0769515458674 620.0961894323343 1186.0769515458674 853.9230484541326 1419.9038105676657 988.9230484541326z' fill='rgba(177%2c 208%2c 224%2c 0.55)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1176.29 683.71 a47.42 47.42 0 1 0 94.84 0 a47.42 47.42 0 1 0 -94.84 0z' fill='rgba(177%2c 208%2c 224%2c 0.55)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask2297'%3e%3crect width='1440' height='900' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cradialGradient cx='0%25' cy='50%25' r='1508.67' gradientUnits='userSpaceOnUse' id='SvgjsRadialGradient2298'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(26%2c 55%2c 77%2c 1)' offset='1'%3e%3c/stop%3e%3c/radialGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
   background-repeat: no-repeat;
@@ -80,8 +88,8 @@ footer a {
       background: #B1D0E0;
       padding: 0.5rem; }
   .menu-station {
-    color: #F7F7F7;
-    font-size: 0.8rem; }
+    color: #ffffff;
+    font-size: 1.2rem; }
   .menu-clock {
     text-align: center;
     font-family: "Open sans", sans-serif;
@@ -158,19 +166,97 @@ main .cards {
     main .cards-card-image {
       align-items: center;
       display: flex;
-      margin-top: 3.5rem;
+      margin-top: 2rem;
       justify-content: center;
       overflow: hidden; }
       main .cards-card-image-img {
-        width: 80px; }
+        width: 90px; }
     main .cards-card-content {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      padding: 15px;
-      margin-top: 2.5em; }
+      padding: 20px;
+      margin-top: 1em; }
       main .cards-card-content-text {
+        color: #F7F7F7;
+        font-size: 20px; }
+        main .cards-card-content-text-value {
+          color: #F7F7F7;
+          font-size: 25px;
+          font-weight: bold;
+        }
+
+.bodyAbout {
+  background: linear-gradient(180deg, #252525 15%, #393e46 100%);
+  background-repeat: no-repeat; }
+
+.headerAbout-menuAbout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0 0 20px;
+  position: relative;
+  text-align: center; }
+  .headerAbout-menuAbout-returnArrow {
+    width: 2.5rem;
+    filter: invert(90%);
+    position: absolute;
+    top: 20px;
+    left: 20px; }
+    .headerAbout-menuAbout-returnArrow:hover {
+      filter: invert(50%); }
+  .headerAbout-menuAbout-title {
+    color: #F7F7F7;
+    font-family: "Lilita One", cursive;
+    font-weight: 100;
+    margin-top: 20px; }
+
+.mainAbout {
+  text-align: center; }
+  .mainAbout-hr {
+    margin: 40px auto; }
+  .mainAbout-logo {
+    width: 300px; }
+  .mainAbout-aboutUs {
+    display: flex;
+    flex-direction: column; }
+    .mainAbout-aboutUs-title {
+      color: #F7F7F7;
+      margin: 40px 0;
+      font-weight: 100;
+      font-family: "Montserrat", sans-serif;
+      font-size: 3rem; }
+    .mainAbout-aboutUs-box {
+      align-content: center;
+      justify-content: center;
+      text-align: center;
+      padding: 25px 300px; }
+      .mainAbout-aboutUs-box-subtitle {
+        color: #B1D0E0;
+        font-family: "Montserrat", sans-serif; }
+      .mainAbout-aboutUs-box-img {
+        margin-top: 20px; }
+      .mainAbout-aboutUs-box-paragraph {
+        border-right: 1px solid #FF725E;
+        border-bottom: 1px solid #FF725E;
+        border-left: 1px solid #FF725E;
+        border-radius: 0 0 8px 8px;
+        margin-top: -8px;
+        padding: 0 24px;
+        height: 0;
+        overflow: hidden;
+        opacity: 0;
+        transition: 0.2s;
         color: #F7F7F7; }
+
+#aboutUs {
+  margin-top: 50px; }
+
+.mainAbout-aboutUs-box.active .mainAbout-aboutUs-box-paragraph {
+  height: fit-content;
+  opacity: 1;
+  padding: 24px; }
 
 * {
   margin: 0;

@@ -69,7 +69,7 @@
             </div>
             <div id="temperatura" class="cards-card-content">
               <span class="cards-card-content-text" style="text-align: center">Temperatura</span>
-              <span id="valorTemperatura" class="cards-card-content-text" style="text-align: center"></span>
+              <span id="valorTemperatura" class="cards-card-content-text-value" style="text-align: center"></span>
              </div>
              
           </article>
@@ -83,7 +83,7 @@
             </div>
             <div id="umidade" class="cards-card-content">
               <span class="cards-card-content-text" style="text-align: center">Umidade</span>
-              <span id="valorUmidade" class="cards-card-content-text" style="text-align: center"></span>
+              <span id="valorUmidade" class="cards-card-content-text-value" style="text-align: center"></span>
             </div>
             
           </article>
@@ -97,7 +97,7 @@
             </div>
             <div id ="pressao" class="cards-card-content">
               <span class="cards-card-content-text" style="text-align: center">Pressão Atmosférica</span>
-              <span id="valorPressao" class="cards-card-content-text" style="text-align: center"></span>
+              <span id="valorPressao" class="cards-card-content-text-value" style="text-align: center"></span>
             </div>
             
           </article>
@@ -111,7 +111,7 @@
             </div>
             <div id = "velvento" class="cards-card-content">
               <span class="cards-card-content-text" style="text-align: center">Velocidade do vento</span>
-              <span id = "valorVelvento" class="cards-card-content-text" style="text-align: center"></span>
+              <span id = "valorVelvento" class="cards-card-content-text-value" style="text-align: center"></span>
             </div>
             
           </article>
@@ -125,7 +125,7 @@
             </div>
             <div class="cards-card-content">
               <span id="dirvento" class="cards-card-content-text" style="text-align: center">Direção do vento</span>
-              <span id="valorDirvento" class="cards-card-content-text" style="text-align: center"></span>
+              <span id="valorDirvento" class="cards-card-content-text-value" style="text-align: center"></span>
             </div>
             
           </article>
@@ -139,7 +139,7 @@
             </div>
             <div class="cards-card-content">
               <span id="luminosidade" class="cards-card-content-text" style="text-align: center">Luminosidade</span>
-              <span id="valorLuminosidade" class="cards-card-content-text" style="text-align: center"></span>
+              <span id="valorLuminosidade" class="cards-card-content-text-value" style="text-align: center"></span>
             </div>
             
           </article>
@@ -192,14 +192,14 @@ function atualizarDados() {
 // Função para converter a direção do vento em texto
 function convertWindDirection(degrees) {
     const directionMap = {
-        0: "Norte",
-        45: "Nordeste",
-        90: "Leste",
-        135: "Sudeste",
-        180: "Sul",
-        225: "Sudoeste",
-        270: "Oeste",
-        315: "Noroeste",
+        0: "Norte" + " " + "🡱",
+        45: "Nordeste" + " " + "🡵",
+        90: "Leste" + " " + "🡲",
+        135: "Sudeste" + " " + "🡶",
+        180: "Sul" + " " + "🡳",
+        225: "Sudoeste" + " " + "🡷",
+        270: "Oeste" + " " + "🡸",
+        315: "Noroeste" + " " + "🡴",
     };
 
     const closestDirection = Object.keys(directionMap).reduce((a, b) => {
