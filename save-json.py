@@ -13,8 +13,8 @@ conn = r.connect(
     host='200.17.86.19',
     port=58015,
     db='santa_rosa',
-    user='eduardo.rodrigues@sou.unijui.edu.br',
-    password='f37jnf9b87cf3'
+    user='',
+    password='f'
 )
 i = 0
 
