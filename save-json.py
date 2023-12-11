@@ -13,8 +13,8 @@ conn = r.connect(
     host='200.17.86.19',
     port=58015,
     db='santa_rosa',
-    user='eduardo',
-    password='f'
+    user='eduardo.rodrigues@sou.unijui.edu.br',
+    password='f37jnf9b87cf3'
 )
 i = 0
 
@@ -73,7 +73,7 @@ try:
                 # Lidar com exceções específicas (KeyError e IndexError) aqui
                 print(f"Erro: {e}. Pulando para a próxima iteração.")
         i += 1
-        time.sleep(2)
+        time.sleep(5)
 
 except KeyboardInterrupt:
     print('\nSaindo...')
